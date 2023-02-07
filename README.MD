@@ -1,9 +1,19 @@
 # Download mp4 files from youtube with youtube dlp
 
+## Prerequisites
+
+1. `ffmmpeg` library
+2. `python` with installed `yt-dlp`(`pip install yt-dlp`)
+3. `git`
+
 ## install
 
-1. copy `Download-Youtube` folder do `~/documents/powershell/modules`
-2. install `python` with `yt-dlp package` (`pip install yt-dlp`)
+open powershell with **admin** rights
+
+run these commands
+
+    cd `C:/Program Files/WindowsPowerShell/modules`
+    git clone https://github.com/thefrol/Download-Youtube
 
 ## usage
 
