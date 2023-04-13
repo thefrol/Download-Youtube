@@ -18,3 +18,8 @@ run these commands
 ## usage
 
 just run `get-youtube https://www.youtube.com/watch?v=zIPW8VJH4Po` from powershell
+
+##TODO
+
++ new command get-youtube-channel channel_address [-no-live] [-last-day | -last-week]
++ параллельная загрузка файлов
