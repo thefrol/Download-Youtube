@@ -11,7 +11,7 @@ function Get-Youtube {
     param(
         [switch] $RemoveNonAscii
     )
-    yt-dlp -f bv[height>=1000][ext=mp4]+ba[ext=m4a]/bv[ext=mp4]+ba[ext=m4a]/b[ext=mp4] --remux mp4 $args
+    yt-dlp -f bv[height>=1000][vcodec^=avc][ext=mp4]+ba[ext=m4a]/bv[ext=mp4]+ba[ext=m4a]/b[ext=mp4] --remux mp4 $args
     yt-dlp -f bv+ba/b --recode mp4 $args
 
     if($RemoveNonAscii){
